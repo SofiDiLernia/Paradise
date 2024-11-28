@@ -1,0 +1,248 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 30px 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+}
+
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+h1,
+h2,
+h3 {
+  padding: 30px 0;
+  font-weight: normal;
+}
+
+/* Header */
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: #1b1b1b;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Main Content */
+.main-content {
+  background-color: #fff;
+  padding-left: 290px;
+  padding-right: 290px;
+  padding-top: 200px;
+  padding-bottom: auto;
+  display: flex;
+  justify-content:space-between;
+}
+
+h2 {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.frase {
+  width: 550px;
+}
+  
+.conteinersub {
+  width: 600px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+  .flecha {
+    width: 100px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .subscribete {
+    width: 90px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .casablanca {
+    height: 463px;
+  }
+
+/* Articles */
+.articles {
+  padding: 200px 0px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+}
+
+.articles .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.article {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 300px;
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.article a {
+  color: #cfbe5d;
+}
+
+.article a:hover {
+  padding-top: 5px;
+  text-decoration: underline;
+}
+
+/* GALERÍA */
+/* Estilo de galería */
+.galeriasection {
+  background-color: #fff;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* Estilo para c/imagen */
+.galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0.6;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Efecto cuando cursor pasa sobre imagen */
+.galeria img:hover {
+  opacity: 1; /* Aumentar opacidad */
+  transform: scale(1.1); /* Zoom leve */
+}
+
+
+/* About */
+.about {
+  padding: 200px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.containerabout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 51%;
+}
+
+/* Contact */
+.contact {
+  padding: 200px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  background-color: #cfbe5d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #a09348;
+}
+
+/* Footer */
+footer {
+  padding: 30px;
+  background-color: #333;
+  color: #fff;
+}
